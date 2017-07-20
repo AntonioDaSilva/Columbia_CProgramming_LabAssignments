@@ -1,5 +1,5 @@
 /*
-  Author: <Mert Ünsal>
+  Author: <Mert Unsal>
   Course: <Introduction to COmputer Programming: Fundamentals of C>
   Instructor: <Gilbert Pajela>
   Assignment: <Lab1>
