@@ -1,0 +1,51 @@
+/*
+  Author: <Mert Unsal>
+  Course: <Introduction to COmputer Programming: Fundamentals of C>
+  Instructor: <Gilbert Pajela>
+  Assignment: <Lab3>
+
+  Solution for Lab 3 Problem 3
+*/
+
+#include <stdio.h>
+
+  //this func must find all d'S in that number and change them with d prime, and it must return final number
+
+int replaceDigit(int num, int d, int dp){
+  int finalnum;
+
+
+  return finalnum
+  
+  }
+
+int lengthof_int(int num){
+  int count = 0;
+  while (num != 0){
+    num /= 10;
+    count += 1;
+  }
+  return count;
+}
+
+
+
+int main(){
+  
+  int num, d, dp;
+  printf("Enter the number: ");
+  scanf("%d",&num);
+  printf("Enter d: ");
+  scanf("%d",&d);
+  printf("Enter the d prime: ");
+  scanf("%d", &dp);
+
+  printf("Final number is: %d",replaceDigit(num, d, dp) );
+
+
+
+  
+
+  
+}
+
