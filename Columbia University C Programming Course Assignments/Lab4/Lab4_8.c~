@@ -1,0 +1,58 @@
+/*
+  Author: <Mert Unsal>
+  Course: <Introduction to COmputer Programming: Fundamentals of C>
+  Instructor: <Gilbert Pajela>
+  Assignment: <Lab4>
+
+  Solution for Lab 4 Problem 8
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+
+
+double normalize_element( double arr[] ,int index, double denom){
+  double normalized_element  = arr[index]/denom;
+  return normalized_element
+}
+
+void print_vector(double arr[] , int l){
+  for(int i = 0; i<l; i++){
+    printf("Normalized vector element number %d: %lf\n",i ,arr[i]);
+  }
+}
+
+int main(){
+  int l;
+  
+  printf("Please enter the length of your vector: ");
+  scanf("%d",&l);
+  
+  double arr[l];
+  
+  for (int i = 0; i < l; i++){
+    printf("Please enter element number %d: ",i);
+    scanf("%lf",&arr[i]);
+  }
+
+  printf("Vector normalization started..\n");
+
+  double denom  = 0.00;
+  
+  for (int i = 0; i<l; i++){
+    denom += (arr[i]*arr[i]);
+  }
+  
+  denom = sqrt(denom)
+
+    for (int i = 0
+  
+
+  
+
+  double normalized_vector = normalize_vector(arr, l);
+
+  
+  return 0;
+}
