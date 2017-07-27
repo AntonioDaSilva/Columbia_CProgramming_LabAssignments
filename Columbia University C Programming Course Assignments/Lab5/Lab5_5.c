@@ -1,4 +1,3 @@
-// not finished yet sorry :(
 /*
   Author: <Mert Unsal>
   Course: <Introduction to COmputer Programming: Fundamentals of C>
