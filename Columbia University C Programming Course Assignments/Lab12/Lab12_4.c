@@ -10,7 +10,7 @@ void swap(int* a, int* b)
     *b = t;
 }
 
-int partition (int arr[], int low, int high)
+int part (int arr[], int low, int high)
 {
     int pvt = arr[high]; 
     int i = (low - 1);  
@@ -31,10 +31,10 @@ void quickSort(int arr[], int l, int h)
 {
     if (l < h)
     {
-        int pi = partition(arr, l, h);
+        int l = part(arr, l, h);
 
-        quickSort(arr, l, pi - 1);
-        quickSort(arr, pi + 1, h);
+        quickSort(arr, l, l - 1);
+        quickSort(arr, l + 1, h);
     }
 }
 
