@@ -1,0 +1,10 @@
+FALSE 
+O(f+g) =max{O(f), O(g)}
+TRUE
+FALSE
+if g=O(f) && f=O(h) then g=O(h)
+FALSE
+O(n^3)
+FALSE
+O(n^3)
+

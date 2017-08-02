@@ -1,0 +1,17 @@
+Dominant Terms       O(...)
+--------------       ------
+0.005n^3               n^3
+50n^1.5                n^1.5
+3.5n^1.75              n^1.75
+n^2log(2^n)            n^2log(2^n)
+nlog(2^n),nlog(3^n)    nlog(n)
+4log(8^n)              log(n)
+0.09n^2                n^2
+500n^2                 n^2
+0.2n^1.25              n^1.25
+n(log(2^n))^2          n(log(2^n))^2
+n^3                    n^3
+0.008log(4^n)          log(n)
+
+
+
