@@ -8,11 +8,11 @@ struct node{
 
 struct node *first = NULL, *last = NULL;
 
-void swap(struct node* a,struct node* b){
-  int temp;
-  temp=a->data;
-  a->data=b->data;
-  b->data=temp;
+void swap(struct node* a1,struct node* a2){
+  int tp;
+  tp=a1->data;
+  a1->data=a2->data;
+  a2->data=tp;
 }
 
 void qsort(struct node *low, struct node *high){
